@@ -1,5 +1,5 @@
 CREATE PROCEDURE mySP
 AS
 BEGIN
-    SELECT * FROM dbo.siulibrary;
+    SELECT location FROM dbo.siulibrary;
 END;
