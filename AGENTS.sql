@@ -1,0 +1,16 @@
+﻿/****** Object:  Table [dbo].[AGENTS]    Committed by VersionSQL https://www.versionsql.com ******/
+
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [dbo].[AGENTS](
+	[AGENT_CODE] [char](6) NOT NULL,
+	[AGENT_NAME] [char](40) NULL,
+	[WORKING_AREA] [char](35) NULL,
+	[COMMISSION] [numeric](10, 2) NULL,
+	[PHONE_NO] [char](15) NULL,
+	[COUNTRY] [varchar](20) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[AGENT_CODE] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
