@@ -1,4 +1,5 @@
-create table newtable(Bnid int not null,
+create table newtable(
+    Bnid int not null,
 Bid int not null,
 sample_id int,
 Blid int,
