@@ -1,1 +1,0 @@
-update customers set cust_name = 'Chirag' where cust_code = 'C00024';
