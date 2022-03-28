@@ -7,5 +7,5 @@ END;
 create procedure newSP 
 as 
 BEGIN
-    select lname,city from  Ilibrary;
+    select lname,city from  dbo.Ilibrary;
 end;
