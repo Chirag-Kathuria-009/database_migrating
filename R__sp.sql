@@ -7,5 +7,5 @@ END;
 create procedure newSP 
 as 
 BEGIN
-    select * from  Ilibrary;
+    select lname,city from  Ilibrary;
 end;
